@@ -57,7 +57,7 @@ public class Main {
         miles100 = (100 / fuelEfficiency) * gasPrice;
         distancePossible = gasInTank * fuelEfficiency;
 
-        System.out.printf("The cost of 100 miles is: %5.2f\n", miles100);
+        System.out.printf("The cost of 100 miles is: $%5.2f\n", miles100);
         System.out.printf("The car can go %5.2f miles\n", distancePossible);
 
     }
